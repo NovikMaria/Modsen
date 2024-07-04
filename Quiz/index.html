@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="const.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="theme.css" />
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="quiz" id="quiz">
+        <div class="quiz-questions" id="questions"></div>
+
+        <div class="quiz-indicator" id="indicator">1/7</div> 
+
+        <div class="quiz-results" id="results">
+            <div class="quiz-results-item">
+                <div class="quiz-results-item-question">How many planets are in the solar system?</div>
+                <div id="some-correct-answers"></div>
+                <ul class="quiz-results-item-answers">
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>                    
+                </ul> 
+            </div>
+        </div>
+        <div class="quiz-buttons">
+            <button class="btn-next" id="btn-next" disabled>Далее</button>
+            <button class="btn-restart" id="btn-restart">С начала</button>
+        </div> 
+              
+        <button class="btn-theme">Смена темы</button>
+        
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
