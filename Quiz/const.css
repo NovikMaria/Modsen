@@ -1,0 +1,11 @@
+:root {
+    --bg-color: darkkhaki;
+    --main-margin: 0 auto;
+    --main-margin-bottom: 20px;
+    --margin-bottom: 15px;
+    --invalid-color: red;
+    --valid-color: green;
+    --main-font-size: 16px;
+    --title-font-size: 20px;
+    --main-border-radius: 10px;
+  }
